@@ -10,5 +10,5 @@ for i in range(len(file2)):
     except ValueError:
         j += 1
 tabsort = sorted(tab, reverse=True)
-print(tab[0])
+print(tabsort[0])
 print(tabsort[0] + tabsort[1] + tabsort[2])

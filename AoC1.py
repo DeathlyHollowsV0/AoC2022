@@ -9,5 +9,5 @@ for i in range(len(file2)):
         tab[j] += int(file2[i])
     except ValueError:
         j += 1
-rabsort = sorted(tab, reverse=True)
-print(rabsort[0] + rabsort[1] + rabsort[2])
+tabsort = sorted(tab, reverse=True)
+print(tabsort[0] + tabsort[1] + tabsort[2])

@@ -6,6 +6,7 @@ with open('day4.txt') as f:
         pair.append(line.strip("\n").replace(
             "-", " ").replace(",", " ").split())
 for line in pair:
-    if ((int(line[0]) <= int(line[2])) and (int(line[1]) >= int(line[3]))) or ((int(line[0]) >= int(line[2])) and (int(line[1]) <= int(line[3]))):
+    if int(line[0]) <= int(line[2]) and int(line[1]) >= int(line[3]) or int(line[0]) >= int(line[2]) and int(line[1]) <= int(line[3]):
         numpairs = numpairs + 1
 print(numpairs)
+                                                                                                              
